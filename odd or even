@@ -1,0 +1,18 @@
+# number = input('Enter a number: ')
+#
+# if number % 4 == 0:
+#     print ("Number is divisible by 4")
+# elif number % 2 == 0:
+#     print ("You've entered a even number")
+# else:
+#     print ("You've entered a odd number")
+
+##################
+
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+
+if num1 % num2 == 0:
+    print ("Good. Division is possible")
+else:
+    print ("Bad. Division is not possible")
